@@ -199,9 +199,9 @@ header {
 }
 
 .day-on {
-    background-color: #ffffff;
-    border: 1px solid var(--main-accent-color);
-    color: var(--main-accent-color);
+    background-color: var(--main-accent-color);
+    //border: 1px solid var(--main-accent-color);
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
