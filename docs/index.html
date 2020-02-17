@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Tienne:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="media/Veggies/radish.png"/>
+    <title>Find a Farmer's Market</title>
+</head>
+<body>
+    <main class="search-container">
+        <h1>Farmers Market<br>Finder</h1>
+        <figure class="radish-container">
+            <img src="media/Veggies/SVG/radish.svg" alt="radish">
+        </figure>
+        <h2>Enter a Zip Code</h2>
+        <form action="results.html" method="get">
+            <input input type="text" id="zip" pattern="\d{5}" maxlength="5" name="zip" required="required">
+            <button type="submit">Go</button>
+        </form>
+        <div class="thanks"><a href="https://www.vecteezy.com/free-vector/flowers">Vectors by Vecteezy</a></div>
+    </main>
+<script src="scripts.js"></script>
+</body>
+</html>

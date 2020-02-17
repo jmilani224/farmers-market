@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Tienne:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="media/Veggies/radish.png"/>
+    <title>Farmer's Markets Near You</title>
+</head>
+<body class="body-results">
+    
+    <header>
+        
+        <a class="go-back-container" href="index.html">
+            <figure class="arrow-container">
+                <img src="media/arrow.svg" alt="back arrow">
+            </figure>
+            <p class="back">Back</p>
+        </a>
+        <figure class="radish-container radish-results">
+            <a href="index.html"><img src="media/Veggies/SVG/radish.svg" alt="radish"></a>
+        </figure>
+    </header>
+    <main class="results">
+        <div class="card">
+            <h2 class="h2-card"></h2>
+            <p class="p-card distance"></p>
+            <div class="map">
+                
+            </div>
+        <p class="p-card months"></p>
+        <div class="week-container">
+            <div class="day-off sun">S</div>
+            <div class="day-off mon">M</div>
+            <div class="day-off tue">T</div>
+            <div class="day-off wed">W</div>
+            <div class="day-off thu">T</div>
+            <div class="day-off fri">F</div>
+            <div class="day-off sat">S</div>
+        </div>
+            <p class="p-card time"></p>
+        </div>
+    </main>
+    <footer>
+        <h2>Missing a market?</h2>
+        <a target="_blank" href="https://www.ams.usda.gov/services/local-regional/food-directories-update"><button>Add It Here</button></a>
+    </footer>
+    <script src="scripts.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn21zqDGzidnZ_A-eu0eLUKT7VPccoAAE">
+    </script>
+</body>
+</html>
