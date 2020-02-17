@@ -200,7 +200,6 @@ header {
 
 .day-on {
     background-color: var(--main-accent-color);
-    //border: 1px solid var(--main-accent-color);
     color: #ffffff;
     display: flex;
     justify-content: center;
