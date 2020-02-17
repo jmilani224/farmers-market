@@ -254,21 +254,8 @@ const resultContainer = document.querySelector('.results');
                 /* Times! */
                 
                 const time = newCard.querySelector('.time');
-                console.log(scheduleArr[5]);
                 const fiveString = scheduleArr[5] + "%";
                 time.innerHTML = `${scheduleArr[4]} ${fiveString.substr(0,2)} - ${fiveString.substring(3,fiveString.indexOf('%'))} ${scheduleArr[6].substr(0,2)}`
-
-
-
-                //console.log(weekContainer);  
-                //console.log(fullName);
-
-                console.log(schedule);
-              
-                /* console.log(markDets.marketdetails.Address) //Address
-                console.log(markDets.marketdetails.GoogleLink) //Google maps
-                console.log(markDets.marketdetails.Products) //What they sell
-                console.log(markDets.marketdetails.Schedule) //Schedule - needs to be reformatted */
             });
         resultContainer.appendChild(newCard);
     };
