@@ -254,8 +254,8 @@ const resultContainer = document.querySelector('.results');
                 /* Times! */
                 
                 const time = newCard.querySelector('.time');
-                const fiveString = scheduleArr[5] + "%";
-                time.innerHTML = `${scheduleArr[4]} ${fiveString.substr(0,2)} - ${fiveString.substring(3,fiveString.indexOf('%'))} ${scheduleArr[6].substr(0,2)}`
+                const fiveString = scheduleArr[5];
+                time.innerHTML = `${scheduleArr[4]} ${fiveString.substr(0,2)} - ${fiveString.substring(3)} ${scheduleArr[6].substr(0,2)}`
             });
         resultContainer.appendChild(newCard);
     };
