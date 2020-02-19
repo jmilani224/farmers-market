@@ -242,10 +242,17 @@ footer button {
       height: 100vh;
       border: none;
     }
-
+    
     .card {
-        width: 400px;
-        height: 500px;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        border-top: none;
+        margin: 0;
+    }
+
+    .card:first-of-type {
+        border-top: 1px solid var(--main-accent-color);
     }
 
     h2 {
@@ -253,7 +260,7 @@ footer button {
     }
     
     .h2-card {
-        font-size: 2em;
+        font-size: 1.7em;
     }
     
     .p-card {
