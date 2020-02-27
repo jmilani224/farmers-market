@@ -14,7 +14,7 @@ html {
 /* Main Search Page */
 
 body {
-    background: url(vegies.png), #E5F0E8;
+    background: #E5F0E8;
     background-image: url(media/Veggies/SVG/Artboard%201.svg);
     background-repeat: repeat;
     height: 100vh;
@@ -32,7 +32,7 @@ figure {
 .search-container {
     height: auto;
     width: 35%;
-    background-color: #F3F1F1;
+    background-color: var(--light-gray);
     border: 5px solid #FFFFFF;
     display: flex;
     align-items: center;
