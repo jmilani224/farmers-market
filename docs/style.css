@@ -166,7 +166,13 @@ header {
     justify-content: space-evenly;
     align-items: center;
     margin: 15px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18)
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+    transition: ease 0.1s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    transition: ease 0.1s;
 }
 
 .h2-card {
