@@ -35,6 +35,7 @@ figure {
     width: 35%;
     background-color: var(--light-gray);
     border: 5px solid #FFFFFF;
+    border-radius: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,6 +157,7 @@ header {
 .card {
     background-color: #ffffff;
     border-top: 5px solid var(--main-accent-color);
+    border-radius: 3px;
     width: 225px;
     height: 300px;
     padding: 10px 7px;
