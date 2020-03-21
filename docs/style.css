@@ -2,6 +2,7 @@
     --main-accent-color: #426635;
     --light-gray: #F3F1F1;
     --text-dark-gray: #4D4D4D;
+    --mid-gray: #6c7071;
   }
 
 html {
@@ -105,8 +106,7 @@ button {
 
 
 .body-results {
-    background: url(vegies.png), #E5F0E8;
-    background-image: url(media/Veggies/SVG/Artboard%201.svg);
+    background: #E5F0E8;
     background-repeat: repeat;
     height: 100vh;
     width: 100vw;
@@ -155,7 +155,7 @@ header {
 
 .card {
     background-color: #ffffff;
-    border: 1px solid var(--main-accent-color);
+    border-top: 5px solid var(--main-accent-color);
     width: 225px;
     height: 300px;
     padding: 10px 7px;
@@ -163,18 +163,22 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: 10px;
+    margin: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18)
 }
 
 .h2-card {
     text-align: center;
     margin: 0px;
+    font-size: 1em;
+    font-weight: 500;
 }
 
 .p-card {
     font-size: 0.8em;
     margin: 5px 0px;
     font-weight: 100;
+    color: var(--mid-gray);
 }
 
 .map {
@@ -191,6 +195,7 @@ header {
 
 .day-off {
     background-color: var(--light-gray);
+    color: var(--mid-gray);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,8 +251,9 @@ footer button {
     .card {
         width: 100%;
         height: auto;
-        padding: 10px;
+        padding: 15px;
         border-top: none;
+        border-bottom: 1px solid var(--main-accent-color);
         margin: 0;
     }
 
@@ -255,16 +261,15 @@ footer button {
         border-top: 1px solid var(--main-accent-color);
     }
 
-    h2 {
-        font-size: 1.5em;
-    }
     
     .h2-card {
         font-size: 1.7em;
+        margin: 0.5em 0.5em 0 0.5em;
     }
     
     .p-card {
         font-size: 1.3em;
+        margin: 1em;
     }
 
     .map {
