@@ -117,8 +117,9 @@ button {
 .results {
     height: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+
 }
 
 header {
@@ -263,6 +264,13 @@ footer button {
         border-top: none;
         border-bottom: 1px solid var(--main-accent-color);
         margin: 0;
+        box-shadow: none;
+        transition: none;
+    }
+    
+    .card:hover {
+        transform: none;
+        transition: none;
     }
 
     .card:first-of-type {
