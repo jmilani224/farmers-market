@@ -28,6 +28,7 @@ const resultContainer = document.querySelector('.results');
             })
             .then((markDets) => {
 
+              const spinner = document.querySelector('.spinner')
                 /* Map! */
                 const googleLoc = markDets.marketdetails.GoogleLink;
                 const lati = parseFloat(googleLoc.substring(googleLoc.indexOf('=') + 1,googleLoc.indexOf('%2C')));
@@ -35,7 +36,9 @@ const resultContainer = document.querySelector('.results');
                 var location = {lat: lati, lng: long};
                 var map = new google.maps.Map(
                     newCard.querySelector('.map'), {zoom: 16, center: location});
-                var marker = new google.maps.Marker({position: location, map: map});
+              var marker = new google.maps.Marker({position: location, map: map});
+
+                spinner.style.display = 'none'
                 
                 /* Months! */
                 const months = newCard.querySelector('.months');
